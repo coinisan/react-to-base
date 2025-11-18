@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.png" width="200" />
+  <img src="assets/banner.png" width="200" />
 </p>
 
 <h1 align="center">React to Base</h1>
