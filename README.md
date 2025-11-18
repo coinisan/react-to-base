@@ -12,44 +12,50 @@
 
 ---
 
-## 🚀 Live Demo
-Coming soon:  
-https://coinisan.github.io/react-to-base/
+## 🚀 Play Now (Remix)
+### 👉 https://remix.gg/g/9debd4e0-91e6-45e5-8e9d-1bbbe1fa9c7b
 
-(Enable GitHub Pages in Settings → Pages)
+This is the official live version of the game running on Remix.gg.
 
 ---
 
 ## 🎮 Gameplay
-The rules are simple:
-
-- Wait until the screen suddenly turns **Base Blue (#4FC3FF)**  
-- Tap **as fast as possible**  
-- Your score = reaction time in milliseconds  
-- Fastest score wins  
-
-Ideal for speed-run battles, leaderboard challenges and social competitions.
+- Wait until the screen flashes **Base Blue**
+- Tap instantly  
+- Score = your reaction time (milliseconds)  
+- Restart happens automatically  
+- Compete with friends in reaction speed battles  
 
 ---
 
 ## ✨ Features
-
-- ⚡ **Ultra-fast reaction timing** (ms precision)  
-- 🎨 **Neon Base UI**  
-- 📱 **Mobile-optimized layout**  
-- 🔊 **Haptic Feedback** (via Farcade SDK)  
-- 🔁 **Auto-restart** after each run  
-- 🎯 **Minimal, clean, esports-ready design**
+- ⚡ Millisecond-accurate reaction system  
+- 🎨 Neon Base-themed visuals  
+- 📱 Fully mobile optimized  
+- 🔊 Haptic feedback support  
+- 🔁 Auto-restart flow  
+- 🎯 Simple, addictive, competitive  
 
 ---
 
-## 🧩 Farcade SDK Integration
+## 🧠 Tech / Platform
+- Built & deployed on **Remix.gg**
+- Uses pure HTML/CSS/JS
+- Optimized for Farcade ecosystem
 
-The game automatically uses:
+---
 
-```js
-window.FarcadeSDK.singlePlayer.actions.ready();
-window.FarcadeSDK.singlePlayer.actions.hapticFeedback();
-window.FarcadeSDK.singlePlayer.actions.gameOver({ score });
-window.FarcadeSDK.on("play_again", () => startGame());
+## 🖼 Assets
+All visual assets are located in the `assets/` folder of this repository.
+
+---
+
+## 📜 License
+MIT License
+
+---
+
+<p align="center">
+  Built by <strong>coinisan</strong> ⚡ Powered by Base
+</p>
 
